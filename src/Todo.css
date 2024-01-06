@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("./assest/backtodo.jpg");
+  }
+  /* body {
+    background: #80c0eb;
+  } */
+  .container {
+    width: 400px;
+    background: #282851;
+    padding: 2rem;
+    margin: 3rem auto;
+    border-radius: 5px;
+  }
+  .container h1{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  
+    color: antiquewhite; 
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    padding: 2.4rem 0;
+  }
+  .input-field input{
+    width: 100%;
+    padding: 5px 1rem;
+    background: #3e3e5a;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  .inputField input {
+    background: transparent;
+    padding: 10px;
+    color: rgb(161, 160, 160);
+    font-size: 1rem;
+  }
+  .inputField input::placeholder {
+    color: rgb(161, 160, 160);
+  }
+  .add {
+    background:transparent;
+    color: #fff;
+    font-size: 2rem;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:5px ;
+    cursor: pointer;
+    transition: all 0.5s;
+
+  }
+  .add:hover {
+    transform: rotate(90deg);
+  }
+  .input-with-button {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+
+    border-radius: 9px;
+    padding: 5px;
+  }
+  
+  .input-with-button input {
+    flex: 1;
+    border: none;
+    outline: none;
+  }
+  
+  .input-with-button button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 5px;
+  }
+  .body-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+
+    border-radius: 9px;
+    padding: 5px;
+  }
+  .body-container span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:wheat;
+  font-weight: 700;
+  display: block;
+    text-align: center;
+  }
+
+  
+  /* Style for buttons */
+  li button {
+    width: 15px;
+  margin: 5px 15px;
+  color:antiquewhite;
+  }
+  
+  /* Align buttons to the end */
+  li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 15px;
+    gap: 25px;
+    /* Additional styles as needed */
+  }
+  
